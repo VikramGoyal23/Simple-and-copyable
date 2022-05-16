@@ -1,3 +1,4 @@
+#Python-SQL connector installation required
 import mysql.connector as SQL
 
 MyDB=SQL.connect(host='localhost',user='root',password='insertpasswordhere',database='insertDBhere')
